@@ -1,0 +1,103 @@
+.main{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	display: flex;
+}
+.left{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	
+}
+.right{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	
+}
+table,td,th,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+/*mobile view media query*/
+@media only screen and (max-width: 425px){
+.main{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+}
+.left{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	background-color:#666; 
+}
+.right{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	background-color: #999;
+	
+}
+table,td,th,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+}
+/*tablet view media query*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.main{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+}
+.left{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	background-color:#999; 
+}
+.right{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	background-color: #666;
+	
+}
+table,td,th,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}	
+}
+/*Laptop view media query*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.main{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+}
+.left{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	background-color:#999; 
+}
+.right{
+	border: 1px solid #000;
+	margin: 2px;
+	padding: 2px;
+	background-color: #999;
+	
+}
+table,td,th,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}	
+}
